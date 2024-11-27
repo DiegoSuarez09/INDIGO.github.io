@@ -1,50 +1,54 @@
+/* Estilos generales */
 body {
-    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(0, 20, 130); /* Fondo color índigo */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+  }
+  
+  /* Estilo del encabezado */
+  .header {
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.2); /* Fondo semitransparente */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 100px; /* Ajusta el tamaño del logo */
+    margin-right: 15px;
+  }
+  
+  .company-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  /* Estilo del iframe */
+  .main-content {
+    width: 100%;
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: linear-gradient(135deg, #061ad4, #c2eb0c);
   }
   
-  .container {
-    text-align: center;
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 400px;
-  }
-  
-  h1 {
-    color: #ff6f61;
-  }
-  
-  p {
-    color: #555;
-    font-size: 1.2em;
-  }
-  
-  img {
-    width: 100%;
-    border-radius: 10px;
-    margin: 15px 0;
-  }
-  
-  button {
-    background: rgb(136, 158, 40);
-    color: #0b44df;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1em;
-    border-radius: 5px;
-    cursor: pointer;
-    
-  }
-  
-  button:hover {
-    background: hsl(212, 79%, 46%);
+  .zoho-panel {
+    width: 90%; /* Ajusta el ancho */
+    height: 80%; /* Ajusta la altura */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra */
   }
   
